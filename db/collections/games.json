@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Beleagured Castle",
+    "instructions": [
+      "Build all 4 center foundations ascending by rank (Ace - King) and suit.",
+  
+      "Cards may be drawn from of any of the 8 wings, and only the top card may be drawn.  A card may be moved from wing to wing, irregardlss of suit, but it must rank in either ascending or descending order to the card it is placed (e.g., 4 of Clubs may be placed on 5 of Hearts). If a wing is emptied of all its cards, a king may be placed in the empty spot.",
+  
+      " The game is won by building all 4 foundations, resulting in 8 empty wings. A game loss results when the player can no longer move any cards."
+    ]
+  },
+  {
+    "name": "Paganini",
+    "instructions": [
+      "Build all eight rows beginning with Aces on the left and running in suit sequence to the Kings on the right.",
+  
+      "All Aces are immediately available for play, and the player begins by moving one of the Aces to the extreme left of any row. When cards are moved, the card that fills its space must be of the same suit and the next higher in rank to the card to the left of the space.",
+
+      "There is no stipulated order for the suit rows; the player makes thier own decisions, but having made them (by placing an ace), cannot change them.",
+
+      "The game is won when all cards are in ascending order by suit and rank (Ace - King), and all 8 positions to the far right will be empty."
+    ]
+  },
+  {
+    "name": "Broken Intervals",
+    "instructions": [
+      "Build on all 4 foundations as follows: in intervals of one on the Ace; in intervals of two on the Two; in intervals of three on the Three, and; in intervals of four on the Four",
+  
+      "Cards from the stock pile can be played to any of the 4 foundation positions or 4 waste piles below them. The top card of any waste pile may be played to any foundation at any time.",
+  
+      "The game is won when all 4 foundations show kings."
+    ]
+  }
+]

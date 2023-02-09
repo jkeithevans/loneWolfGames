@@ -1,0 +1,82 @@
+header { background-color: ghostwhite; }
+
+#nameLogo { display: inline-block; }
+
+#wolfLogo {
+  display: inline-block;
+  height: 6rem;
+  width: 6rem;
+  background-image: url(../images/wolf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 100%;
+}
+
+.logoText {
+  color: rgb(50, 50, 50);
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: oblique;
+  letter-spacing: .2rem;
+}
+
+.subtitleText {
+  color: rgb(150, 150, 150);
+  font-style: normal;
+}
+
+i {
+  display: inline-block;
+  color: rgb(100, 100, 100);
+  font-size: 1.5rem;
+  transition: all .2s ease-in-out;
+}
+
+a>i:hover {
+  color: #7f8561;
+  text-shadow: 0 0 .1rem rgb(0, 0, 0, .75);
+}
+
+a.active>i {
+  color: rgb(150, 150, 150);
+  text-shadow: none;
+}
+
+.menuTrigger { display: inline-block; }
+
+.menu {
+  background: ghostwhite;
+  border-radius: .5rem;
+  position: absolute;
+  z-index: 100;
+  right: 10rem;
+  box-shadow: 0 0 4px 4px rgba(248, 248, 255, 0.30);
+  border: 1px solid #150f2e;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity .4s ease, transform .4s ease, visibility .4s;
+}
+
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: .25rem;
+  border-bottom: 1px solid rgb(21, 15, 46, .75);
+  color: rgb(100, 100, 100);
+  display: block;
+  cursor: pointer;
+}
+
+.menu li:hover { color: #7f8561; }

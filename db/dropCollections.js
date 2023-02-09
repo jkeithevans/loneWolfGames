@@ -1,0 +1,1 @@
+db.getSisterDB('loneWolf').users.drop();

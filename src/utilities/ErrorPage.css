@@ -1,0 +1,32 @@
+#errorPage {
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+}
+
+.iconError {
+  padding: 5vh 0;
+  color: rgb(190, 190, 190);
+  font-size: 4rem;
+}
+
+.leftPaw { margin-left: 40vw; }
+
+.rightPaw { margin-left: 60vw; }
+
+#btnError {
+  position: absolute;
+  top: 55vh;
+  left: calc(50% - 2.5rem);
+  color: rgb(160, 160, 160);
+  padding: .5rem 1rem;
+  background-color: rgb(160, 160, 160, 0);
+  border: 1px rgb(160, 160, 160) solid;
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+}
+
+#btnError:hover {
+  color: ghostwhite;
+  background-color: rgb(160, 160, 160, .25);
+  text-decoration: none;
+}

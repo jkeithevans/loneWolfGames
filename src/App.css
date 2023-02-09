@@ -1,0 +1,150 @@
+:root {
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+body { background-color: black;}
+
+h1, h2, h4, h5 { letter-spacing: .1rem; }
+
+h1, h3, h5 { font-family: Tahoma, Verdana, sans-serif;}
+
+h2, h4, h6 { font-family: Helvetica, Arial, sans-serif;}
+
+h1 {
+  font-size: 2.2rem;
+  color: rgb(180, 180, 180);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 525;
+  color: ghostwhite;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: rgb(180, 180, 180);
+}
+
+h5 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: ghostwhite;
+}
+
+h6 {
+  margin: 0;
+  font-size: 1rem;
+  color: rgb(180, 180, 180);
+}
+
+[draggable]:hover { cursor: grab; }
+
+.page {
+  height: 100vh;
+  padding: 1rem 0 0 0;
+  background-color: #150f2e;
+}
+
+.pagePanel {
+  background-color: rgb(0, 0, 0, .2);
+  border: .2rem solid rgb(124, 91, 77, .75);
+  border-radius: .5rem;
+}
+
+button {
+  border-radius: .3rem;
+  color: ghostwhite;
+  transition: all .2s ease-in;
+}
+
+button:hover {
+  background-image: linear-gradient(160deg,
+    rgba(248, 248, 255, 0) 0%,
+    rgba(248, 248, 255, .05) 20%,
+    rgba(248, 248, 255, .1) 40%,
+    rgba(248, 248, 255, .4) 60%,
+    rgba(248, 248, 255, .1) 80%,
+    rgba(248, 248, 255, 0) 100%
+  );
+  background-repeat: repeat-y;
+  background-position:-5000px 0;
+  animation: gleam 3s 1 ease-in;
+}
+
+.acceptButton {
+  border: 1px solid #7f8561;
+  background-color: #282e0f80;
+  color: rgb(248, 248, 255, .9);
+}
+
+.acceptButton:hover {
+  background-color: rgba(127, 133, 97, 0.6);
+  color: rgb(248, 248, 255);
+}
+
+.refuseButton {
+  border: 1px solid #82526c;
+  background-color: #2e0f28;
+  color: rgb(248, 248, 255, .9);
+}
+
+.refuseButton:hover {
+  background-color: rgb(130, 82, 108, .6);
+  color: rgb(248, 248, 255);
+}
+
+@keyframes gleam {
+  0%    { background-position: 0000px 0; }
+  20%   { background-position: 1000px 0; }
+  40%   { background-position: 2000px 0; }
+  60%   { background-position: 3000px 0; }
+  80%   { background-position: 4000px 0; }
+  100%  { background-position: 5000px 0; }
+}
+
+input {
+  color: #282e0f;
+  background-color: rgb(180, 180, 180);
+  border: 1px solid #4a502f;
+  border-radius: .3rem;
+  outline: none;
+  caret-color: ghostwhite;
+}
+
+input::placeholder { color: #6b6c8c; }
+
+/* .msgDevice {
+  display: none;
+  height: 100vh;
+  background-color: rgb(123, 3, 3);
+  opacity: .5;
+} */
+
+/* .txtRotate {
+  padding-top: 40vh;
+  font-weight: 700;
+} */
+
+@media screen and (max-width: 1201px) {
+  .paganiniCardRow { padding-left: 15%; }
+}
+@media screen and (max-width: 881px) {
+  :root { font-size: .9rem; }
+  .paganiniCardRow { padding-left: 1vw; }
+}
+@media screen and (max-width: 799px) {
+  :root { font-size: .8rem; }
+}
+@media screen and (max-width: 615px) {
+  :root { font-size: .7rem; }
+}
+@media screen and (max-width: 540px) {
+  :root { font-size: .6rem; }
+}
+/* @media screen and (max-width: 412px) {
+  .main { display: none; }
+  .msgDevice { display: block; }
+}  */
